@@ -1,0 +1,37 @@
+.picture
+{
+
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+body
+{
+    background:linear-gradient(to right, rgb(255, 219, 122) 50%, rgb(189, 241, 242) 100%)
+}
+.bac
+{
+    padding: 10px;
+    height: 350px;
+    background-color: rgba(131, 197, 255, 0.477);
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: groove;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255), -5px -0px 10px rgba(255, 255, 0, 0.493);
+    margin:20px;
+}
+.logo
+{
+    width:100px;
+    height:100px;
+}
+.mlogo
+{
+background-color: rgba(228, 137, 40, 0.595);
+width:200px;
+border-radius: 5px;
+border-style:outset;
+border-color: black;
+border-width: 3px;
+}

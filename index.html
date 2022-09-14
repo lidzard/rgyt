@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h3>Case Study Between Google Lens And MobileNet</h3>
+        <h1>Google Lens <img class="logo" src="Google_Lens_-_new_logo.png"></h1>
+        <h3>vs<h3>
+                <h1 class="mlogo">MobileNet</h1>
+                <div class="container">
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="tank copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Lego Tank </span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Thought it was a ruler</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google Lens was better. </h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="bottle copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span> Tea</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Water Bottle</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4>MobileNet was better</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="salt copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Shaker</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Thimble</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google lens</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="pepper copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Skaker</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Thimble</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google lens</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="yoda copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Baby Yoda Toy</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Shower Curten</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google Lens</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="pincilething copy 2.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Pincile Sharpener </span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Mike</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google Lens</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="light copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span>Light</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Bottle</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Google Lens</h4>
+                        </div>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="bac">
+                    <div class="text_image_and_result col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <li>
+                            <img class="picture img-responsive" src="bread copy.jpg">
+                        </li>
+                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            Output on <b> Google Lens</b>
+                            
+                            <span> Bread</span>
+                        </div>
+                        <h5 class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            Output on<b>MobileNet Model</b>
+                            <span> Bread</span>
+                        </h5>
+                        <div class="mini_result" class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Tie</h4>
+                        </div>
+                    </div>
+                    <h1>Google lens had 6 out of 8 And thus was better</h1>
+                </ol>
+            </div>
+    </center>
+</body>
+<script src="main.js"></script>
+
+</html>
